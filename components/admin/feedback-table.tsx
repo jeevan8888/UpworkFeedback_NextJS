@@ -84,7 +84,7 @@ export function FeedbackTable() {
     if (password) {
       fetchData(activeTab === "detailed");
     }
-  }, [password, activeTab, fetchData]);
+  }, [password, activeTab]);
 
   const handleTabChange = (value: string) => {
     setActiveTab(value);
